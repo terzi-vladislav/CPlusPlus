@@ -28,7 +28,7 @@ int main(){
 		cin >> temp;
 		arr[i] = temp;
 	}
-	cout << max_elem(arr, arr + size) << endl <<  min_elem(arr, arr + size) << endl;
+	cout << "Max element = " << max_elem(arr, arr + size) << endl << "Min element =" << min_elem(arr, arr + size) << endl;
 
 	return 0;
 }
